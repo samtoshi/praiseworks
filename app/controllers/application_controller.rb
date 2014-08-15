@@ -4,3 +4,17 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 end
 
+def logout
+   session[:login]=nil
+   redirect_to "members/login"
+   return
+end
+
+def logout
+   if session[:login] != nil then
+     return true
+   else
+     return false
+   end
+   return
+end

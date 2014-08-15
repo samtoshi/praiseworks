@@ -23,7 +23,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # adding options by SAM
-#gem 'mongo_mapper'
+
+gem 'rails_12factor', group: :production
 gem 'mongoid', '4.0.0'
 gem "bson_ext"
 #gem "moped", github: "mongoid/moped"
