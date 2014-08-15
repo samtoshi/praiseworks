@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+#gem 'ruby', '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
@@ -22,6 +23,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # adding options by SAM
+#gem 'mongo_mapper'
 gem 'mongoid', '4.0.0'
 gem "bson_ext"
 #gem "moped", github: "mongoid/moped"
